@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  cursor: default;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  cursor: inherit;
+  min-width: 0;
+}
+
+h1 {
+  font-family: "Poppins", fantasy;
+  margin: 0;
+}
+
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: "Roboto", serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

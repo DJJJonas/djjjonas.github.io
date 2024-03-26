@@ -4,7 +4,6 @@
 
 img: https://avatars.githubusercontent.com/u/48167880
 Jonas de Melo
-Full Stack - Web Developer - Game Developer
 
 ## Portfolio
 
