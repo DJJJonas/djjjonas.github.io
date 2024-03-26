@@ -144,28 +144,6 @@ body {
 }
 
 /* 
-░█▀▀░█▀█░█▀█░▀█▀░█▀█░█▀▀░▀█▀
-░█░░░█░█░█░█░░█░░█▀█░█░░░░█░
-░▀▀▀░▀▀▀░▀░▀░░▀░░▀░▀░▀▀▀░░▀░
- */
-.contact p {
-  font-size: var(--font-size-3);
-  text-align: center;
-  max-width: var(--content-width);
-  margin: 0 auto;
-  color: var(--blue-6);
-}
-
-.contact p i {
-  font-size: var(--font-size-3-5);
-  color: var(--blue-7);
-}
-
-.contact p a {
-  cursor: pointer;
-}
-
-/* 
 ░█▀▀░█▀█░█▀▄░█▀▄░█▀▀
 ░█░░░█▀█░█▀▄░█░█░▀▀█
 ░▀▀▀░▀░▀░▀░▀░▀▀░░▀▀▀
@@ -271,6 +249,31 @@ body {
 }
 .card-pink {
   border-color: #ffaebc;
+}
+
+/* 
+░█▀▀░█▀█░█▀█░▀█▀░█▀▀░█▀▄
+░█▀▀░█░█░█░█░░█░░█▀▀░█▀▄
+░▀░░░▀▀▀░▀▀▀░░▀░░▀▀▀░▀░▀
+*/
+footer {
+  background: var(--blue-7);
+  color: white;
+  margin: var(--font-size-3) 0 0;
+  padding: 0 var(--font-size-4);
+
+  h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-3);
+    margin: 4px 0;
+  }
+  p {
+    font-size: var(--font-size-4);
+    a {
+      cursor: pointer;
+      color: var(--blue-2);
+    }
+  }
 }
 
 /*
