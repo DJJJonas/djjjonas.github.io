@@ -233,7 +233,7 @@ body {
 /* Image */
 .card img {
   border-style: solid;
-  border-color: var(--blue-4);
+  border-color: var(--blue-1);
   border-width: 2px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -256,45 +256,14 @@ body {
 .card-blue {
   border-color: #a0e7e5;
 }
-.card-blue img {
-  border-color: #78ddda;
-}
-.card-blue p {
-  color: #2fbcb7;
-  background: #e3fcfb;
-}
-
 .card-green {
   border-color: #b4f8c8;
 }
-.card-green img {
-  border-color: #86f4a7;
-}
-.card-green p {
-  color: #2fbc59;
-  background: #e3fceb;
-}
-
 .card-yellow {
   border-color: #fbe7c6;
 }
-.card-yellow img {
-  border-color: #f8d296;
-}
-.card-yellow p {
-  color: #bc862f;
-  background: #fcf3e3;
-}
-
 .card-pink {
   border-color: #ffaebc;
-}
-.card-pink img {
-  border-color: #ff7a91;
-}
-.card-pink p {
-  color: #bc2f46;
-  background: #fce3e7;
 }
 
 /*
