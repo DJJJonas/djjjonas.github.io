@@ -16,6 +16,14 @@
   --content-width: 40rem;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
 body {
   background: linear-gradient(135deg, var(--blue-1), var(--blue-2));
 }
@@ -219,11 +227,9 @@ body {
       border-style: solid;
       border-color: var(--blue-1);
       border-width: 2px;
-      box-sizing: border-box;
       border-radius: 8px;
       aspect-ratio: 4 / 3;
       object-fit: cover;
-      height: 100%;
     }
 
     /* Description */
@@ -269,13 +275,16 @@ body {
 footer {
   background: var(--blue-7);
   color: white;
-  margin: var(--font-size-3) 0 0;
-  padding: 0 var(--font-size-4);
+  margin: var(--font-size-1) 0 0;
+  padding: var(--font-size-4);
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
 
   h4 {
     font-family: "Poppins", sans-serif;
     font-size: var(--font-size-3);
-    margin: 4px 0;
+    margin: 0;
   }
 
   p {
