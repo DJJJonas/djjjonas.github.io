@@ -267,6 +267,9 @@ body {
     &.card-pink {
       border-color: #ffaebc;
     }
+    &.card-white {
+      border-color: #e5ddc8;
+    }
   }
 }
 
