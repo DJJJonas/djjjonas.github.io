@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Roboto Condensed", monospace;
+}
+
+p,
+a {
+  text-decoration: none;
+  color: #050606d0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 0.8rem;
+}
+
+body {
+  margin: 0;
+  background: black;
+  padding: 4px;
+}
